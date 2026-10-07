@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+
+# Builds
+dist/
+build/
+web-build/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+
+# React Native / Android signing
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+
+# Coverage
+coverage/
